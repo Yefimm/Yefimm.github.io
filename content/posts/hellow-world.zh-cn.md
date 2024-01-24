@@ -1,9 +1,9 @@
 ---
 title: "Hellow World"
-date: 2024-01-23T18:47:04+08:00
+date: 2024-01-22T18:47:04+08:00
 draft: false
 description: ""
-topics: ["test"]
+topics: "test"
 ---
 
 Hello World. 
