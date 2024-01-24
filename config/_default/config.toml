@@ -5,7 +5,8 @@
 theme = "congo"
 defaultContentLanguage = "zh-CN"
 languageCode = "zh-CN"
-baseURL = "http://localhost:1313/"
+#baseURL = "http://localhost:1313/"
+baseURL = "https://yefimm.github.io/"
 
 enableRobotsTXT = true
 paginate = 15
