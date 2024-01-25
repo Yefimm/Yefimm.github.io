@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yefimm.github.io/sitemap.xml
