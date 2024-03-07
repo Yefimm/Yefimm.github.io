@@ -17,8 +17,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="rgb(255,255,255)" />
   
-  <title>Topic1 Part1 &middot; Yefimm</title>
-    <meta name="title" content="Topic1 Part1 &middot; Yefimm" />
+  <title>第二章 傅立叶级数的基本性质-概述 &middot; Yefimm</title>
+    <meta name="title" content="第二章 傅立叶级数的基本性质-概述 &middot; Yefimm" />
   
   
   
@@ -76,14 +76,14 @@
     name="description"
     content="
       
-        
+        简要的描述一下第二章的主要内容，涉及到傅立叶级数研究的对象，提出傅立叶级数的收敛性与唯一性问题，并由收敛性问题引申出级数求和的新方式。
       
     "
   />
   
   
   
-  <link rel="canonical" href="https://yefimm.github.io/posts/topic1-part1/" />
+  <link rel="canonical" href="https://yefimm.github.io/posts/steinfourier2-0/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -98,16 +98,16 @@
   
   
   
-  <meta property="og:title" content="Topic1 Part1" />
-<meta property="og:description" content="" />
+  <meta property="og:title" content="第二章 傅立叶级数的基本性质-概述" />
+<meta property="og:description" content="简要的描述一下第二章的主要内容，涉及到傅立叶级数研究的对象，提出傅立叶级数的收敛性与唯一性问题，并由收敛性问题引申出级数求和的新方式。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yefimm.github.io/posts/topic1-part1/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-01-23T21:02:51+08:00" />
-<meta property="article:modified_time" content="2024-01-23T21:02:51+08:00" />
+<meta property="og:url" content="https://yefimm.github.io/posts/steinfourier2-0/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-07T21:36:58+08:00" />
+<meta property="article:modified_time" content="2024-03-07T21:36:58+08:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Topic1 Part1"/>
-<meta name="twitter:description" content=""/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="第二章 傅立叶级数的基本性质-概述"/>
+<meta name="twitter:description" content="简要的描述一下第二章的主要内容，涉及到傅立叶级数研究的对象，提出傅立叶级数的收敛性与唯一性问题，并由收敛性问题引申出级数求和的新方式。"/>
 
   
   <script type="application/ld+json">
@@ -115,26 +115,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "文章",
-    "name": "Topic1 Part1",
-    "headline": "Topic1 Part1",
+    "name": "第二章 傅立叶级数的基本性质-概述",
+    "headline": "第二章 傅立叶级数的基本性质-概述",
     
-    
+    "abstract": "简要的描述一下第二章的主要内容，涉及到傅立叶级数研究的对象，提出傅立叶级数的收敛性与唯一性问题，并由收敛性问题引申出级数求和的新方式。",
     "inLanguage": "zh-CN",
-    "url" : "https:\/\/yefimm.github.io\/posts\/topic1-part1\/",
+    "url" : "https:\/\/yefimm.github.io\/posts\/steinfourier2-0\/",
     "author" : {
       "@type": "Person",
       "name": "Yefimm"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-01-23T21:02:51\u002b08:00",
-    "datePublished": "2024-01-23T21:02:51\u002b08:00",
+    "dateCreated": "2024-03-07T21:36:58\u002b08:00",
+    "datePublished": "2024-03-07T21:36:58\u002b08:00",
     
-    "dateModified": "2024-01-23T21:02:51\u002b08:00",
+    "dateModified": "2024-03-07T21:36:58\u002b08:00",
     
-    
+    "keywords": "#数学分析",
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "321"
   }
   </script>
 
@@ -142,8 +142,6 @@
   
   <meta name="author" content="Yefimm" />
   
-    
-      <link href="https://www.zhihu.com/people/Yephgeni.Jia" rel="me" />
     
       <link href="https://github.com/Yefimm" rel="me" />
     
@@ -165,6 +163,46 @@
 
   
   
+    
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+
+
+
+  
 </head>
 <body
     class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral"
@@ -180,8 +218,9 @@
     
     
       <header class="py-6 font-semibold text-neutral-900 print:hidden sm:py-10 dark:text-neutral">
+	
+
   <nav class="flex items-start justify-between sm:items-center">
-    
 	<div class="flex sm:item-center">
 	
 	<div class="z-40 flex flex-row items-center">
@@ -251,7 +290,7 @@
                   
                     <a
                       href="/posts/"
-                      title="文章"
+                      title=""
                       onclick="close_menu()"
                       
                       ><span
@@ -268,7 +307,7 @@
                   
                     <a
                       href="/topics/"
-                      title="话题"
+                      title=""
                       onclick="close_menu()"
                       
                       ><span
@@ -285,7 +324,7 @@
                   
                     <a
                       href="/tags/"
-                      title="标签"
+                      title=""
                       onclick="close_menu()"
                       
                       ><span
@@ -334,7 +373,7 @@
               
                 <a
                   href="/posts/"
-                  title="文章"
+                  title=""
                   
                   ><span
                       class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
@@ -350,7 +389,7 @@
               
                 <a
                   href="/topics/"
-                  title="话题"
+                  title=""
                   
                   ><span
                       class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
@@ -366,7 +405,7 @@
               
                 <a
                   href="/tags/"
-                  title="标签"
+                  title=""
                   
                   ><span
                       class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
@@ -406,6 +445,47 @@
       </ul>
     
   </nav>
+  
+  
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+
+
+
+  
 </header>
 
     
@@ -443,8 +523,8 @@
   <li class="hidden inline">
     <a
       class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
-      href="/posts/topic1-part1/"
-      >Topic1 Part1</a
+      href="/posts/steinfourier2-0/"
+      >第二章 傅立叶级数的基本性质-概述</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -453,7 +533,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Topic1 Part1
+        第二章 傅立叶级数的基本性质-概述
       </h1>
       
         <div class="mb-12 mt-8 text-base text-neutral-500 print:hidden dark:text-neutral-400">
@@ -480,6 +560,8 @@
   
 
   
+    
+  
 
   
     
@@ -489,7 +571,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-01-23 21:02:51 &#43;0800 CST">2024年1月23日</time><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2024-03-07 21:36:58 &#43;0800 CST">2024年3月7日</time><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -497,7 +579,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/topic1-part1/index.zh-cn.md"
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/posts/SteinFourier2-0/index.zh-cn.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -517,13 +599,21 @@
     <div class="my-1 flex flex-wrap text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
       
         
+          
+            <a
+              href="/tags/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >#数学分析</a
+            >
+          
+        
       
         
           
             <a
-              href="/topics/topic1/"
+              href="/topics/steinfourieranalysis/"
               class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
-              >topic1</a
+              >Stein 傅立叶分析笔记</a
             >
           
         
@@ -538,8 +628,65 @@
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="-ms-5 block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 lg:hidden dark:bg-neutral-700 dark:text-neutral-100"
+  >
+    目录
+  </summary>
+  <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#主要矛盾傅立叶分析研究的对象">主要矛盾：傅立叶分析研究的对象</a></li>
+    <li><a href="#镜中故我唯一性和收敛性的问题kernel">镜中故我？：唯一性和收敛性的问题、Kernel</a></li>
+    <li><a href="#我命令你收敛切萨罗求和与阿贝尔求和">「我命令你收敛」：切萨罗求和与阿贝尔求和</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        
+        <p>简要的描述一下第二章的主要内容，涉及到傅立叶级数研究的对象，提出傅立叶级数的收敛性与唯一性问题，并由收敛性问题引申出级数求和的新方式。</p>
+<h2 id="主要矛盾傅立叶分析研究的对象" class="relative group">主要矛盾：傅立叶分析研究的对象 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%b8%bb%e8%a6%81%e7%9f%9b%e7%9b%be%e5%82%85%e7%ab%8b%e5%8f%b6%e5%88%86%e6%9e%90%e7%a0%94%e7%a9%b6%e7%9a%84%e5%af%b9%e8%b1%a1" aria-label="锚点">#</a></span></h2><p>傅立叶分析研究的主要对象是定义在区间或者圆上的至少为黎曼可积的函数。这类函数的特点是有界，但可以有无穷多个间断点。</p>
+<p>对于定义在长度为 \(2\pi\) 上的周期函数 $f(\theta)$ ，我们可以将它定义到圆上，得到对应的 $F(e^{i\theta})$ ， $\theta$ 是 $2\pi$ 整数倍区间上的一个实数。因为 $F(e^{i\theta})$ 是 $f(\theta)$ 的一个变型，所以它的连续性、可积性以及其他光滑特性都没有改变。当函数定义在区间上时，一般用 $x$ 表示自变量，当定义在圆上时，则用 $\theta$ 来代替 $x$ 。</p>
+<p>定义在长度为 $L$ 的区间 $[a,b]$ 上的连续函数 $f(x)$ 的傅立叶系数 $a$ 定义为 </p>
+$$
+a_{n}=\hat{f}(n)= \frac{1}{L}\int _{0}^Lf(x)e^{-i2\pi nx /L} \, \text{d}x ,$$
+<p>
+它的含义是第 $n$ 个系数等于 $f(x)$ 与频率为 ${2\pi n}$ 的复指数函数 $\varphi_{n}(x)= e^{i2\pi nx /L}$ 的內积： $\frac{1}{L}\left< f(x),e^{i2\pi nx /L} \right>$ 。</p>
+<h2 id="镜中故我唯一性和收敛性的问题kernel" class="relative group">镜中故我？：唯一性和收敛性的问题、Kernel <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%95%9c%e4%b8%ad%e6%95%85%e6%88%91%e5%94%af%e4%b8%80%e6%80%a7%e5%92%8c%e6%94%b6%e6%95%9b%e6%80%a7%e7%9a%84%e9%97%ae%e9%a2%98kernel" aria-label="锚点">#</a></span></h2><p>以上只是通过 $f(x)$ 找到了它的傅立叶级数，但是仍需要回答两个问题，第一这个傅立叶级数，它保收敛吗？如果我们拿着 $f(x)$ 一顿计算，结果最后级数发散了，那不白忙活了吗？这个问题看起来比较复杂，实际一点也不简单，因为系数中的 $f(x)$ 是纯粹形式（pure formal）上的，我们无法看出到底是不是收敛的。当然，系数表达式中的复指数函数以及求和不是 pure formal 的，我们可以在它们上面做一些文章。</p>
+<p>先短暂跳过收敛性的讨论，我们面临的第二个问题是如果得到了在某个意义上收敛的傅立叶级数，那么这个傅立叶级数是唯一的吗？或者说：具有相同傅立叶系数的两个函数必然相等吗？这来自于人们的朴素愿望，我们通过变换得到函数在另一个空间的表达，但它在重新换到原空间时应该是不变的，或者至少只有很小一部分（零测度集）和原先不同。</p>
+<p>答案是，在这两个函数的连续点处，它们是相等的。</p>
+<p>接下来回到收敛性问题：函数的傅立叶级数是否收敛于原函数？这个问题的另一个表述是傅立叶级数的部分和 $S_{n}$ 在 $n\to \infty$ 时是否收敛于 $f(x)$ 。为此，我们将深入研究傅立叶级数的部分和。</p>
+<p>假设 $f(x)$ 是定义在 $[-\pi,\pi]$ 上的函数。首先，观察它傅立叶级数部分和的公式，它是由 $a\_{n}$ 和不同频率的复指数函数相乘再求和得到： $S_{N}(x)=\sum_{n=-N}^Na_{n}e^{i nx}$ ，而 $a_{n}$ 的积分内又包含了一个 $\varphi_{n}^*(y)=e^{-i ny}$ ，如果将 $\varphi_{n}^*(y)\varphi_{n}(x)$ 结合，将函数 $f(x)$ 视作一个变量，那么部分和可以等价于 $f(x)$ 和一个系统函数（或者说，Kernel）的卷积，部分和的变换方法是这样的： </p>
+$$\begin{aligned}S_{N}(x)&=\sum_{n=-N}^Na_{n}e^{inx}\\&=\sum_{n=-N}^N\left( \frac{1}{2\pi}\int _{a}^bf(y)e^{-iny} \, \text{d}y \right) \cdot e^{inx}\\&=\frac{1}{2\pi}\sum_{n=-N}^N\int _{a}^b f(y)e^{in(x-y)} \, \text{d}y\\&=\frac{1}{2\pi}\int _{a}^b\left( \sum_{n=-N}^Ne^{in(x-y)} \right)f(y)  \, \text{d}y ,  \end{aligned}$$
+<p> 第三个等号是因为积分与 $x$ 无关，所以 $e^{inx}$ 可以放到积分内部，第四个等号是因为 $\sum_{n=-N}^Ne^{iny}$ 是一致收敛的，所以求和号可以换到积分里去（ $f(y)$ 与 $n$ 无关，所以不需要考虑 $f(y)$ ）。</p>
+<p>将两个周期是 $2\pi$ ，定义域是 $[-\pi,\pi]$ 的函数的<strong>卷积</strong>定义为： $f(x)* g(x)=\frac{1}{2\pi}\int _{-\pi}^\pi f(y)g(x-y) \, \text{d}y$ ，那么部分和可以写为 $S_{N}(x)=D_{N}(x)*f(x)$ ，其中 $D_{N}=\sum_{n=-N}^Ne^{inx}$ 被当做生成部分和的 Kernel，称为 Dirichlet Kernel。多说一句，这里的卷积定义多了一个 $\frac{1}{2\pi}$ 的系数，这样部分和可以写得简洁一些，对于一些重要的定理，这个系数没有影响。</p>
+<p>在信号与系统中，我们知道如果希望信号经过一个系统后保持不变，那么这个系统的冲激响应应该是狄拉克函数 $\delta(x)$ ，即 $\delta(x)=0,x\neq 0$ 且 $\int_{-\infty}^{\infty} \delta(x) \, \text{d}x=1$ 。这说明 $D_{n}(x)\to\delta(x),n\to \infty$ ，这一点可以通过求出 $D_{N}$ 的显示表达式得到： </p>
+$$D_{N}(x)=\frac{\sin\left( \left( N+\frac{1}{2} \right)x \right)}{\sin(x/2)}.$$
+<p> 这不仅是 Dirichlet Kernel 的性质，也是其他 Kernel 的性质。</p>
+<p>定义了 Kernel 之后，部分和序列 $\{ S_{n} \}_{n=1}^N$ 就可以表示为原函数 $f(x)$ 与 Kernel 序列的卷积 $\{ D_{n}*f(x) \}_{n=1}^N$ 。这个卷积序列的收敛性和 $f(x)$ 傅立叶级数的收敛性是等价的，因为它本身就是从傅立叶级数变形得到的。将这个思路进行推广，给出函数列 $\{ K_{n}(x) \}$ ，然后将其与 $f(x)$ 卷积以得到一个函数列 $\left\{ K_{n}(x)*f(x) \right\}_{n=1}^\infty$ ，部分和的收敛性简化为这个数列的收敛性。结论是，如果 $\{ K_{N} \}$ 满足&quot;Good Kernel&quot;的三个条件，那么当 $n\to \infty$ 时，卷积趋于 $f(x)$ ，当然，这要求 $f(x)$ 至少是连续的。</p>
+<p><strong>这是一个关键的思路</strong>，如果我们证明了&quot;Good Kernel&quot;与 $f(x)$ 的卷积在 $n\to \infty$ 时收敛于 $f(x)$ ，那么我们可以只要求 $f(x)$ 连续，然后研究与其卷积的函数族是否是&quot;Good Kernel&quot;即可。</p>
+<p>这个意义上讲，函数列 $\{ K_{n} \}$ 是 $f(x)$ 与其傅立叶级数 $F(\theta)$ 之间的近似器。然而不幸的是， $\{ D_{N} \}$ 并不是一个&quot;Good Kernel&quot;，这意味着傅立叶级数的收敛性问题的回答不一定是肯定的，傅立叶级数的无穷求和方式可能导致振荡十分剧烈，换言之，级数可能是发散的。</p>
+<p>新的问题也随之而来，既然傅立叶级数不一定收敛到原函数 $f(x)$ ，那么当 $f(x)$ 满足什么条件时，其傅立叶级数是收敛的，又是怎样收敛的（一致收敛，还是逐点收敛）？收敛性的后续讨论将在第三章进行。</p>
+<h2 id="我命令你收敛切萨罗求和与阿贝尔求和" class="relative group">「我命令你收敛」：切萨罗求和与阿贝尔求和 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%88%91%e5%91%bd%e4%bb%a4%e4%bd%a0%e6%94%b6%e6%95%9b%e5%88%87%e8%90%a8%e7%bd%97%e6%b1%82%e5%92%8c%e4%b8%8e%e9%98%bf%e8%b4%9d%e5%b0%94%e6%b1%82%e5%92%8c" aria-label="锚点">#</a></span></h2><p>我们跳过收敛性的详细论证，考虑另一个问题。既然傅立叶级数的无穷求和可能导致级数发散，有没有一种方法令级数收敛呢？如果一个函数的傅立叶级数是振荡的，我们首先可以想到的是，由级数的部分和构成的序列平均是否是收敛的。例如序列 $1,-1,1,-1,\dots$ ，它的部分和序列是 $1,0,1,0,\dots$ 。虽然它是发散的，但部分和序列的均值收敛到了 $\frac{1}{2}$  。这样的求和方式与直接相加不同，称为切萨罗 （Cesàro）求和。如果级数的切萨罗和是收敛的，则称级数<strong>切萨罗可和</strong>。值得注意的是，如果级数在原先求和的意义下是收敛的，那么它一定是切萨罗可和的，切萨罗可和是收敛的一个推广。</p>
+<p>还可以进一步推广切萨罗求和，它就是阿贝尔（Abel）求和。阿贝尔求和将序列乘上一个指数衰减的因子 $r^k,0\leq r<1$ ，它的表达式为 $A(r)=\sum_{k=0}^\infty c_{k}r^k$ 。其中 $c_{0},\dots,c_{n}$ 是序列。可以发现，阿贝尔求和是关于衰减因子 $r$ 的函数，如果要令序列 $\{ c_{k} \}_{k=0}^\infty$ 是阿贝尔可和的，则需要 $A(r)$ 对于所有的 $0\leq r<1$ 都收敛，并且当 $r$ 趋近于 1 时， $A(r)$ 收敛到某个数 $s$ ： $\lim_{ r \to 1^- }A(r)=s$ 。</p>
+<p>级数收敛，切萨罗可和，阿贝尔可和的关系是：部分和收敛 $\implies$ 切萨罗可和 $\implies$ 阿贝尔可和，即部分和收敛时必定切萨罗可和，切萨罗可和时必定阿贝尔可和，但反之则不成立。可以用 Venn 图表示为：</p>
+<div align="center">
+<img src="https://chipchip.oss-cn-shanghai.aliyuncs.com/img/202403080044472.png?width=200px" width=300 >
+</div>
+<p>重复由卷积定义部分和得到 Dirichlet Kernel 的步骤，可以得到另外两种级数求和对应的 Kernel：</p>
+<ul>
+<li>切萨罗求和 $\to$ 费叶核</li>
+<li>阿贝尔求和 $\to$ 泊松核</li>
+</ul>
+<p>和 Dirichlet Kernel 不同的是，它俩都是好核，这意味着级数的收敛性得到了保证。最后，通过泊松核和卷积，解决第一章中提到单位圆盘的 Dirichlet 问题，也就是单位圆包含边界条件的热稳态方程的解。</p>
+
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
@@ -612,18 +759,6 @@
         <a
           class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
           style="will-change:transform;"
-          href="https://www.zhihu.com/people/Yephgeni.Jia"
-          target="_blank"
-          aria-label="Zhihu"
-          rel="me noopener noreferrer"
-          ><span class="icon relative inline-block px-1 align-text-bottom"><?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1706097488964" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4491" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M564.7 230.1V803h60l25.2 71.4L756.3 803h131.5V230.1H564.7z m247.7 497h-59.9l-75.1 50.4-17.8-50.4h-18V308.3h170.7v418.8zM526.1 486.9H393.3c2.1-44.9 4.3-104.3 6.6-172.9h130.9l-0.1-8.1c0-0.6-0.2-14.7-2.3-29.1-2.1-15-6.6-34.9-21-34.9H287.8c4.4-20.6 15.7-69.7 29.4-93.8l6.4-11.2-12.9-0.7c-0.8 0-19.6-0.9-41.4 10.6-35.7 19-51.7 56.4-58.7 84.4-18.4 73.1-44.6 123.9-55.7 145.6-3.3 6.4-5.3 10.2-6.2 12.8-1.8 4.9-0.8 9.8 2.8 13 10.5 9.5 38.2-2.9 38.5-3 0.6-0.3 1.3-0.6 2.2-1 13.9-6.3 55.1-25 69.8-84.5h56.7c0.7 32.2 3.1 138.4 2.9 172.9h-141l-2.1 1.5c-23.1 16.9-30.5 63.2-30.8 65.2l-1.4 9.2h167c-12.3 78.3-26.5 113.4-34 127.4-3.7 7-7.3 14-10.7 20.8-21.3 42.2-43.4 85.8-126.3 153.6-3.6 2.8-7 8-4.8 13.7 2.4 6.3 9.3 9.1 24.6 9.1 5.4 0 11.8-0.3 19.4-1 49.9-4.4 100.8-18 135.1-87.6 17-35.1 31.7-71.7 43.9-108.9L497 850l5-12c0.8-1.9 19-46.3 5.1-95.9l-0.5-1.8-108.1-123-22 16.6c6.4-26.1 10.6-49.9 12.5-71.1h158.7v-8c0-40.1-18.5-63.9-19.2-64.9l-2.4-3z" fill="#1296DB" p-id="4492"></path></svg></span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
-          style="will-change:transform;"
           href="https://github.com/Yefimm"
           target="_blank"
           aria-label="Github"
@@ -647,7 +782,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="mailto:?body=https://yefimm.github.io/posts/topic1-part1/&amp;subject=Topic1%20Part1"
+          href="mailto:?body=https://yefimm.github.io/posts/steinfourier2-0/&amp;subject=%e7%ac%ac%e4%ba%8c%e7%ab%a0%20%e5%82%85%e7%ab%8b%e5%8f%b6%e7%ba%a7%e6%95%b0%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%80%a7%e8%b4%a8-%e6%a6%82%e8%bf%b0"
           title="通过电子邮件发送"
           aria-label="通过电子邮件发送"
           target="_blank"
@@ -660,7 +795,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://service.weibo.com/share/share.php?url=https://yefimm.github.io/posts/topic1-part1/&amp;appkey=&amp;title=Topic1%20Part1&amp;pic=&amp;ralateUid=&amp;lang"
+          href="https://service.weibo.com/share/share.php?url=https://yefimm.github.io/posts/steinfourier2-0/&amp;appkey=&amp;title=%e7%ac%ac%e4%ba%8c%e7%ab%a0%20%e5%82%85%e7%ab%8b%e5%8f%b6%e7%ba%a7%e6%95%b0%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%80%a7%e8%b4%a8-%e6%a6%82%e8%bf%b0&amp;pic=&amp;ralateUid=&amp;lang"
           title="分享到 微博"
           aria-label="分享到 微博"
           target="_blank"
@@ -673,59 +808,6 @@
 
 
       
-  
-    
-    
-    
-    <div class="pt-8">
-      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
-      <div class="flex justify-between pt-3">
-        <span>
-          
-            <a class="group flex" href="/posts/topic1-part0/">
-              <span
-                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&larr;</span
-                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
-              >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Topic1 Part0</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-01-23 21:02:04 &#43;0800 CST">2024年1月23日</time>
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="group flex text-right" href="/posts/topic2-part1/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Topic2 Part1</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-01-23 21:03:08 &#43;0800 CST">2024年1月23日</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
-          
-        </span>
-      </div>
-    </div>
   
 
 
@@ -787,6 +869,17 @@
   </article>
 
         
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="回到顶部"
+              title="回到顶部"
+            >
+              &uarr;
+            </a>
+          </div>
+        
       </main><footer class="py-10 print:hidden">
   
   
@@ -795,7 +888,7 @@
       
       
         <p class="text-sm text-neutral-500 dark:text-neutral-400">
-            © 本文所有文章除特别声明外，均采用 
+            © 本站所有文章除特别声明外，均采用 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC-BY-SA 4.0</a> 许可协议。转载请注明出处 💜
         </p>
       

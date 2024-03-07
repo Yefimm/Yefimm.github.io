@@ -6,36 +6,15 @@
     <description>Recent content in 文章 on Yefimm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <copyright>&amp;copy; 本文所有文章除特别声明外，均采用 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。转载请注明出处 💜</copyright>
-    <lastBuildDate>Tue, 23 Jan 2024 21:03:08 +0800</lastBuildDate>
+    <copyright>&amp;copy; 本站所有文章除特别声明外，均采用 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。转载请注明出处 💜</copyright>
+    <lastBuildDate>Thu, 07 Mar 2024 21:36:58 +0800</lastBuildDate>
     <atom:link href="https://yefimm.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Topic2 Part1</title>
-      <link>https://yefimm.github.io/posts/topic2-part1/</link>
-      <pubDate>Tue, 23 Jan 2024 21:03:08 +0800</pubDate>
-      <guid>https://yefimm.github.io/posts/topic2-part1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Topic1 Part1</title>
-      <link>https://yefimm.github.io/posts/topic1-part1/</link>
-      <pubDate>Tue, 23 Jan 2024 21:02:51 +0800</pubDate>
-      <guid>https://yefimm.github.io/posts/topic1-part1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Topic1 Part0</title>
-      <link>https://yefimm.github.io/posts/topic1-part0/</link>
-      <pubDate>Tue, 23 Jan 2024 21:02:04 +0800</pubDate>
-      <guid>https://yefimm.github.io/posts/topic1-part0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hellow World</title>
-      <link>https://yefimm.github.io/posts/hellow-world/</link>
-      <pubDate>Mon, 22 Jan 2024 18:47:04 +0800</pubDate>
-      <guid>https://yefimm.github.io/posts/hellow-world/</guid>
-      <description>&lt;p&gt;Hello World.&lt;/p&gt;</description>
+      <title>第二章 傅立叶级数的基本性质-概述</title>
+      <link>https://yefimm.github.io/posts/steinfourier2-0/</link>
+      <pubDate>Thu, 07 Mar 2024 21:36:58 +0800</pubDate>
+      <guid>https://yefimm.github.io/posts/steinfourier2-0/</guid>
+      <description>简要的描述一下第二章的主要内容，涉及到傅立叶级数研究的对象，提出傅立叶级数的收敛性与唯一性问题，并由收敛性问题引申出级数求和的新方式。</description>
     </item>
   </channel>
 </rss>

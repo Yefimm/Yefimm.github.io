@@ -6,29 +6,15 @@
     <description>Recent content in 话题 on Yefimm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <copyright>&amp;copy; 本文所有文章除特别声明外，均采用 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。转载请注明出处 💜</copyright>
-    <lastBuildDate>Tue, 23 Jan 2024 21:16:56 +0800</lastBuildDate>
+    <copyright>&amp;copy; 本站所有文章除特别声明外，均采用 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。转载请注明出处 💜</copyright>
+    <lastBuildDate>Thu, 07 Mar 2024 20:40:13 +0800</lastBuildDate>
     <atom:link href="https://yefimm.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test</title>
-      <link>https://yefimm.github.io/topics/test/</link>
-      <pubDate>Tue, 23 Jan 2024 21:16:56 +0800</pubDate>
-      <guid>https://yefimm.github.io/topics/test/</guid>
-      <description>这个topic中包含了一系列用于测试的东西</description>
-    </item>
-    <item>
-      <title>topic 2</title>
-      <link>https://yefimm.github.io/topics/topic2/</link>
-      <pubDate>Tue, 23 Jan 2024 21:16:56 +0800</pubDate>
-      <guid>https://yefimm.github.io/topics/topic2/</guid>
-      <description>&lt;p&gt;some description&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>topic1</title>
-      <link>https://yefimm.github.io/topics/topic1/</link>
-      <pubDate>Mon, 22 Jan 2024 21:16:56 +0800</pubDate>
-      <guid>https://yefimm.github.io/topics/topic1/</guid>
-      <description>{{ partial }}</description>
+      <title>Stein 傅立叶分析笔记</title>
+      <link>https://yefimm.github.io/topics/steinfourieranalysis/</link>
+      <pubDate>Thu, 07 Mar 2024 20:40:13 +0800</pubDate>
+      <guid>https://yefimm.github.io/topics/steinfourieranalysis/</guid>
+      <description>&lt;p&gt;学习Stein《Fourier Analysis: Introduction》的笔记，我会尽可能地减少大段公式的出现，但有时这是不可避免的。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
